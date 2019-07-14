@@ -1,0 +1,22 @@
+.module_1{
+	width: 1350px;
+	height: 110px;
+	margin: 0;
+	padding: 0;
+}
+.module_1_left{
+	width: 60px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 1000px;
+	background-color: red;
+	border: red;
+}
+.module_1_right{
+	width: 70px;
+	height: 30px;
+	margin-right: 80px;
+	background-color: red;
+	border: red;
+}

@@ -1,0 +1,109 @@
+.module_2{
+	background-color: gainsboro;
+	width: 1350px;
+	height: 1550px;
+}
+.module_2_top{
+	padding-top: 30px;
+	height: 100px;
+}
+.module_2_top_left{
+	margin-left: 80px;
+	font-size: 20px;
+}
+.module_2_top_nav{
+	margin-left: 800px;
+	position: relative;
+}
+ul{
+	display: flex;
+}
+li{
+	font-size: 12px;
+	padding-right: 30px;
+	list-style: none;
+	cursor: pointer;
+	z-index: 999999;
+}
+#huakuai{
+	width: 55px;
+    height: 3px;
+    left: 40px;
+    position: absolute;
+    transition: all .3s linear;
+    top: 20px;
+	background-color: darkgrey;
+}
+.lunbotu{
+	width: 300px;
+	margin-left: 180px;
+	position: relative;
+}
+#lunboImg img{
+	width: 300px;
+	height: 150px;
+}
+.left_right_button span{
+	width: 24px;
+	height: 24px;
+	left: 5px;
+	top: 50%;
+	margin-top: -20px;
+	background: #fff;
+	line-height: 24px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "黑体";
+	font-size: 18px;
+	color: #000;
+	border: 1px solid #fff;
+	opacity: 0.5;
+	cursor: pointer;
+	position: absolute;
+}
+.left_right_button #right{
+	right: 8px;
+	left: auto;
+}
+.behind{
+	position: absolute;
+    height: 10px;
+    right: 50px;
+    bottom: -5px;
+    text-align: center;
+    padding: 2px;
+}
+.behind li{
+	display: inline-block;
+    width: 1px;
+    height: 10px;
+    line-height: 10px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+.echart{
+	width: 1320px;
+	height: 350px;
+}
+#quxian{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	width: 1250px;
+	height: 500px;
+	margin-left: 50px;
+}
+#bingzhuang{
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+}
+#zhuzhuang{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	width: 1250px;
+	height: 500px;
+	margin-left: 50px;
+}
